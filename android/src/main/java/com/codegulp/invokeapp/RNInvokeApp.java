@@ -23,7 +23,7 @@ public class RNInvokeApp extends ReactContextBaseJavaModule {
 
     private static ReactApplicationContext reactContext;
     public static final String LOG_TAG = "RNInvokeApp";
-    private static Bundle bundle = null;
+    public static Bundle bundle = null;
 
     public RNInvokeApp(ReactApplicationContext context) {
         super(context);
